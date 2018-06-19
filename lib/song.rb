@@ -53,7 +53,7 @@ class Song
     song.name = file[1].chomp(".mp3")
     song
   end
-  def self.destry_all
-    
-      
+  def self.destroy_all
+    @@all.clear
+  end
 end
